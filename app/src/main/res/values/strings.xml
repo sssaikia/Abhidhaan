@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">অভিধান</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5433263595056427/4940321993</string>
+    <string name="ad_id">ca-app-pub-5433263595056427/6176062790</string>
+
+    <string name="link">click this<a href="http://www.google.com">link</a>for more</string>
+</resources>

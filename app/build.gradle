@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'key0'
+            keyPassword 'ssaikia3#'
+            storeFile file('C:/Users/Alan/abhidhaan.jks')
+            storePassword 'ssaikia3#'
+        }
+    }
+    compileSdkVersion 26
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "sstudio.com.abhidhaan"
+        minSdkVersion 16
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'uk.co.samuelwall:material-tap-target-prompt:1.9.1'
+    compile 'com.github.javiersantos:MaterialStyledDialogs:2.1'
+}
+
+
+apply plugin: 'com.google.gms.google-services'

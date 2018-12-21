@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4dc3ea</color>
+    <color name="colorPrimaryDark">#47b5d9</color>
+    <color name="colorAccent">#9c064a</color>
+    <color name="primary_text_material_light">#d00303</color>
+    <color name="primary_text_material_dark">#2c3e50</color>
+    <color name="secondary_text_material_light">#fcb0a9a9</color>
+    <color name="secondary_text_material_dark">#fcd29f9f</color>
+    <color name="background">#fafafa</color>
+    <color name="tvcolor">#010213</color>
+    <color name="tvcolornew">#e5eeef</color>
+    <color name="Diag_back">#b52c4baf</color>
+    <color name="white">#ffffff</color>
+    <color name="statusbarcolor">#e7eb081f</color>
+    <color name="buttonback">#d3dc25</color>
+    <color name="backTest">#4c75a3</color>
+    <color name="autotxtback">#76608a</color>
+    <color name="adialogbackcolor">#6c8dc1</color>
+    <color name="focalColor">#2980b9</color>
+</resources>
